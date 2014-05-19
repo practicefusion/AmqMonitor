@@ -14,10 +14,10 @@ To build the source:
 
 #### Getting started
 
-1. Build the AmqMonitor.sln solution with Visual Studio or MSBuild.
-2. Edit the AmqMonitor.exe.config file and specify values for the following settings:
-   
-   ```XML
+1. Build the **AmqMonitor.sln** solution with Visual Studio or MSBuild.
+
+2. Edit the **AmqMonitor.exe.config** file and specify values for the following settings:
+   ```xml
    <appSettings>
      <add key="AmqHosts" value="host1,host2,host3"/>
      <add key="SampleInterval" value="0:01:00"/>
@@ -25,16 +25,17 @@ To build the source:
    ```
    * **AmqHosts** is a comma-delimited list of brokers to monitor.
    * **SampleInterval** is the interval at which to poll all the brokers, specified as _h:mm:ss_. A value of 1 minute is appropriate for long-running production monitoring.
+
 3. In an elevated command prompt, run the following:
-   
-   ```Batchfile
+   ```
    AmqMonitor.exe install
    ```
+
 4. Start the service using the service control panel, or run the following:
-   
-   ```Batchfile
+   ```
    AmqMonitor.exe start
    ```
+
 5. Fire up Performance Monitor and add counters from the **AmqMonitor** category.
 
 #### More information
