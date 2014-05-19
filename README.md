@@ -10,17 +10,16 @@ To install:
 
 To build the source:
 * Visual Studio 2012
-* Access to http://nuget.org/ for NuGet package restore
 
 #### Getting started
 
 1. Build the **AmqMonitor.sln** solution with Visual Studio or MSBuild.
 
 2. Edit the **AmqMonitor.exe.config** file and specify values for the following settings:
-   ```xml
+   ```
    <appSettings>
-     <add key="AmqHosts" value="host1,host2,host3"/>
-     <add key="SampleInterval" value="0:01:00"/>
+      <add key="AmqHosts" value="host1,host2,host3"/>
+      <add key="SampleInterval" value="0:01:00"/>
    </appSettings>
    ```
    * **AmqHosts** is a comma-delimited list of brokers to monitor.
