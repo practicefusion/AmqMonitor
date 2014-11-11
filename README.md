@@ -39,4 +39,4 @@ To build the source:
 
 #### More information
 
-For an explanation of this project, please visit the Practice Fusion tech blog article about it here: "PerfMon Counters for ActiveMQ", http://www.practicefusion.com/blog/performance-counters-for-activemq
+For an explanation of this project, please visit the Practice Fusion tech blog article about it here: "Windows Performance Counters for ActiveMQ", http://www.practicefusion.com/blog/performance-counters-for-activemq
