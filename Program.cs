@@ -20,7 +20,7 @@
 // Date:    05/19/2014
 // Author:  Steven Padfield
 // 
-// From Practice Fusion technology blog, "PerfMon Counters for ActiveMQ", http://www.practicefusion.com/blog/TBD
+// From Practice Fusion technology blog post, "Windows Performance Counters for ActiveMQ", http://www.practicefusion.com/blog/performance-counters-for-activemq/
 
 using System.Reflection;
 using log4net;
